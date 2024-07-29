@@ -160,7 +160,6 @@ for mmm=1:size(new_image,3)-1
         for kkk=1:length(B)
             BD=B{kkk};
             plot(BD(:,2), BD(:,1),'g', 'linewidth', 2);clear BD;
-             text(round(size(sl_mid,1)/2),0,'Eroded','Color','g')
         end
         clear kkk; pause(0.1);
     end
